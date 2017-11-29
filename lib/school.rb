@@ -14,8 +14,6 @@ class School
   def add_student(student, grade)
     if @roster == {}
       @roster[grade] = []
-        @roster[grade] << student
-    else
       @roster[grade] << student
     end
   end
