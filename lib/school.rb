@@ -18,6 +18,8 @@ class School
     elsif @roster[grade] == nil
       @roster[grade] = []
       @roster[grade] << student
+    else
+      @roster[grade] << student
     end
   end
 
